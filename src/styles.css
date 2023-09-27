@@ -1,0 +1,122 @@
+*{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Reem Kufi', sans-serif;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+
+.logo{
+    height: 3rem;
+    width: 3rem;
+    
+    
+}
+
+.navlogo{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+    align-items: start;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1.5rem;
+}
+
+.logotitle{
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 0.2rem;
+}
+
+li,a{
+    font-family:'Reem kufi',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    height:2rem;
+}
+
+li:hover{
+    border-bottom: 3px solid dimgray;
+
+}
+
+.navbar{
+    background-color: darkgray;
+    justify-content:space-between;
+    display: flex;
+     flex-direction: row;
+    align-items: center;
+    height:5rem;
+    padding: 30px;
+}
+
+.navlinks{
+    list-style: none;
+    margin-right: -1rem;
+}
+
+.userslist{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+li{
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.card {
+    margin: 5px auto;
+    width: 78vw;
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: cadetblue;
+  }
+  .buttons {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .header {
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 6px;
+    margin-left: 5px;
+  }
+  
+  .gitpage{
+    height: 100vh;
+    margin-bottom: 4rem;
+  }
+ 
+  #cimage{
+    max-height: 100vh;
+    align-items: center;
+
+  }
+
+  .userimage{
+    height: 6rem;
+    width:5rem;
+    border-radius: 50%;
+  }
+
+  .userdetails{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    flex-direction: column;
+  }
+
+
+  

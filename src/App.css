@@ -1,0 +1,14 @@
+.app{
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+.card{
+  margin :5px auto;
+  width:480px;
+  text-align: center;
+  border: 2px solid black;
+  padding:20px;
+}
